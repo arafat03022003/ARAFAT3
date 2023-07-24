@@ -1,0 +1,74 @@
+/* Custom styles for the navbar and slideshow section */
+
+/* Navbar */
+.navigation {
+  background-color: #333;
+  color: #fff;
+  position: relative;
+}
+
+.header-top {
+  padding: 10px 0;
+}
+
+.header-top-socials a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar-nav li {
+  padding: 0 15px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+}
+
+/* Slideshow */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+
+.slides {
+  display: none;
+}
+
+.slides img {
+  width: 100%;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #fff;
+}
